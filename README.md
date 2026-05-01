@@ -1,0 +1,16 @@
+At the early phase of this project, the decisive aim was on collection and preparation of datasets to ensure that the data authentically displays real‑world clinical scenarios. We have built a comprehensive dataset by 
+combining four varies medical datasets, making sure thorough deduplication, which results in a robust collection of 488 rows and 4 columns that detail disease symptoms and treatment options. Dataset‑1 comprises three
+columns, aiming on disease names, associated symptoms, and treatment advice, with over 400 records. Dataset‑2 contains four columns centered on disease prediction along decision trees, specifying information about doctors,
+treatments, symptoms, and risk levels. Dataset‑3 combines two files into a total of 18 columns: one file lists over 800 diseases along with up to 17 symptoms each, while the other provides four precautionary steps per disease.
+Finally, Dataset‑4 includes four structured columns derived from web‑sourced medical information, detailing symptoms and corresponding treatments across 400 entries. Together, these datasets form a comprehensive and curated
+resource, significant for analyzing clinical reasoning in LLMs and supporting diverse AI‑based healthcare tasks. Our data is strategically classified in three principal bounds: symptoms to treatment, diseases to treatment,
+and symptoms to disease, authorizing versatile inquiry and mirroring real‑world clinical workflows. Each dataset entry is thoroughly annotated with ground truth labels to identify diseases, symptoms, and treatments, significantly
+enhancing our ability for efficient comparison. Thus, the dataset is designed to prioritize treatment suggestions while integrating an emergency alert that emphasizes the critical significance of consulting a medical professional
+in urgent situations.
+
+The Size & Structure
+The final dataset consists of 488 unique clinical rows organized into 4 standardized columns. It is available in CSV and DataFrame formats for ease of use. The structure is as follows:
+Disease - standardized medical name.
+Symptoms - concatenated string of primary and secondary indicators.
+Treatment - merged string of precautions, cures, and professional advice.
+Filename - metadata for source traceability.
